@@ -7,7 +7,7 @@ import { User } from './User';
 export class AuthService {
   secret: string;
   constructor() {
-    this.secret = 'topSecret';
+    this.secret = 'WEBSUCK!';
   }
 
   public async getUser(): Promise<User | null> {
